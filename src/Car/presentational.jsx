@@ -55,9 +55,15 @@ class Car extends React.Component {
 	}
 
 	onUpdate(data) {
-		const {setStatus} = this.props;
+		const { setStatus, car } = this.props;
 		this.onCleanErrors();
 		setStatus(data);
+		
+		services.checkCar(car.id)
+			.then((status) => {
+				(status.data.ready) && 
+				 this.props.history.push(SECTIONS[2]);
+			})
 	}
 
 	onDropWheel(e) {

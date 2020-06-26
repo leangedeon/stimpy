@@ -1,6 +1,8 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import { TASKS } from '../constants.js';
 import { StyledListTasks, StyledTask } from './styled.jsx';
+import { SECTIONS } from '../constants.js';
 import * as services from '../utils/services.js';
 
 class ListTasks extends React.Component {
@@ -32,9 +34,15 @@ class ListTasks extends React.Component {
 	}
 
 	onUpdate(data) {
-		const { setStatus, setError } = this.props;
+		const { car, setStatus, setError } = this.props;
 		setError(null);
 		setStatus(data);
+
+		services.checkCar(car.id)
+			.then((status) => {
+				(status.data.ready) && 
+				 this.props.history.push(SECTIONS[2]);
+			})
 	}
 
 	render() {
@@ -55,4 +63,4 @@ class ListTasks extends React.Component {
 
 }
 
-export default ListTasks;
+export default withRouter(ListTasks);
