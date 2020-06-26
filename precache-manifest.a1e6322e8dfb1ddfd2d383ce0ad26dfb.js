@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d3e142ebbe90ed5dbcba623d8269a21",
+    "revision": "9edbd44be16de5696d5db2d38a1e2026",
     "url": "/stimpy/index.html"
   },
   {
-    "revision": "57d0de1a67e3ae7cb4e5",
+    "revision": "477854a747b6df2a8bc8",
     "url": "/stimpy/static/css/main.534d6a81.chunk.css"
   },
   {
-    "revision": "34e4f42f1eb0f1e5085c",
-    "url": "/stimpy/static/js/2.4436f183.chunk.js"
+    "revision": "8462373ed6975f3779ae",
+    "url": "/stimpy/static/js/2.0a24a396.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stimpy/static/js/2.4436f183.chunk.js.LICENSE.txt"
+    "url": "/stimpy/static/js/2.0a24a396.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57d0de1a67e3ae7cb4e5",
-    "url": "/stimpy/static/js/main.135010b8.chunk.js"
+    "revision": "477854a747b6df2a8bc8",
+    "url": "/stimpy/static/js/main.f1c979ac.chunk.js"
   },
   {
     "revision": "e710ba798da13934798b",
