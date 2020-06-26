@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stimpy/static/css/main.534d6a81.chunk.css",
+    "main.js": "/stimpy/static/js/main.135010b8.chunk.js",
+    "main.js.map": "/stimpy/static/js/main.135010b8.chunk.js.map",
+    "runtime-main.js": "/stimpy/static/js/runtime-main.b9f5dab8.js",
+    "runtime-main.js.map": "/stimpy/static/js/runtime-main.b9f5dab8.js.map",
+    "static/js/2.4436f183.chunk.js": "/stimpy/static/js/2.4436f183.chunk.js",
+    "static/js/2.4436f183.chunk.js.map": "/stimpy/static/js/2.4436f183.chunk.js.map",
+    "index.html": "/stimpy/index.html",
+    "precache-manifest.110c73371eb9dc285308a6a462179a20.js": "/stimpy/precache-manifest.110c73371eb9dc285308a6a462179a20.js",
+    "service-worker.js": "/stimpy/service-worker.js",
+    "static/css/main.534d6a81.chunk.css.map": "/stimpy/static/css/main.534d6a81.chunk.css.map",
+    "static/js/2.4436f183.chunk.js.LICENSE.txt": "/stimpy/static/js/2.4436f183.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9f5dab8.js",
+    "static/js/2.4436f183.chunk.js",
+    "static/css/main.534d6a81.chunk.css",
+    "static/js/main.135010b8.chunk.js"
+  ]
+}
